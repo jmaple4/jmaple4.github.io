@@ -15,4 +15,8 @@ body {
   max-width: 600px;
   padding: 60px;
 }
+
+.phoneViewPort .content-wrapper form i {
+  font-size: 20px;
+}
 /*# sourceMappingURL=app.css.map */

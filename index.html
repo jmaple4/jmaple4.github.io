@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="assets/css/foundation.css" />
+    <link rel="stylesheet" href="assets/css/foundation-icons.css" />
     <link rel="stylesheet" href="assets/css/app.css" />
   </head>
   <body>
@@ -20,7 +21,13 @@
             <form action="">
               <fieldset>
                 <label>Company name
-                  <input type="text" placeholder="" />
+                  <!-- <input type="text" placeholder="" /> -->
+                  <div class="input-group">
+                      
+                      <input class="input-group-field" type="text">
+                      <span class="input-group-label"><i class="fi-microphone"></i></span>
+                    </div>
+
                 </label>
               </fieldset>
               <a href="about.html" class="button expanded">Next</a>
