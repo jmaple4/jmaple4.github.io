@@ -1,5 +1,5 @@
 body {
-  background: url(../img/dane-deaner-541785-unsplash.png) no-repeat center center;
+  background: url(../img/dane-deaner-541785-unsplash.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -13,10 +13,22 @@ body {
 .phoneViewPort .content-wrapper {
   background: rgba(255, 255, 255, 0.9);
   max-width: 600px;
+  min-width: 480px;
   padding: 60px;
+}
+
+.phoneViewPort .content-wrapper .responsive-embed {
+  margin-bottom: 20px;
 }
 
 .phoneViewPort .content-wrapper form i {
   font-size: 20px;
+}
+
+.phoneViewPort .content-wrapper form .formVoiceOn {
+  background-image: url(../img/googlemic_color_24dp.png);
+  background-position: 98% 50%;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
 }
 /*# sourceMappingURL=app.css.map */
